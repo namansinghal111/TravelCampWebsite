@@ -5,7 +5,7 @@ import React from "react";
 const Features = () => {
   return (
     <section  className="flex-col flexCenter overflow-hidden bg-feature-bg bg-center bg-no-repeat py-24">
-      <div className="max-container padding-container relative w-full flex justify-end">
+      <div id="features" className="max-container padding-container relative w-full flex justify-end">
         <div className="flex flex-1 lg:min-h-[900px]">
           <Image
             src="/phone.png"
@@ -16,7 +16,7 @@ const Features = () => {
           />
         </div>
 
-        <div id="features" className="z-20 flex w-full flex-col lg:w-[60%]">
+        <div  className="z-20 flex w-full flex-col lg:w-[60%]">
           <div className="relative">
             <Image
               src="/camp.svg"
